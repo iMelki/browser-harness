@@ -1,4 +1,9 @@
-"""Best-effort, opt-out telemetry for browser-harness."""
+"""Best-effort, opt-in telemetry for browser-harness.
+
+Off by default in this fork (private by default). Nothing is sent until the
+operator runs `browser-harness telemetry enable` or sets one of TELEMETRY_ENVS
+to a truthy value. A falsy value in any of those variables always wins.
+"""
 
 from __future__ import annotations
 
@@ -17,7 +22,11 @@ from . import paths
 
 POSTHOG_KEY = "phc_rCPCLPtaXB3EuBdiH7JLKtU2Wj5iPnuwdsbw58CnjYXc"
 POSTHOG_HOST = "https://eu.i.posthog.com"
-DISABLE_ENVS = ("BH_TELEMETRY", "BROWSER_HARNESS_TELEMETRY", "ANONYMIZED_TELEMETRY")
+TELEMETRY_ENVS = ("BH_TELEMETRY", "BROWSER_HARNESS_TELEMETRY", "ANONYMIZED_TELEMETRY")
+# Kept for callers that imported the old name.
+DISABLE_ENVS = TELEMETRY_ENVS
+_FALSY = {"0", "false", "no", "off"}
+_TRUTHY = {"1", "true", "yes", "on"}
 MAX_TASK_LENGTH = 20_000
 FORBIDDEN_KEYS = (
     "api_key",
@@ -79,8 +88,22 @@ def _version() -> str:
         return ""
 
 
+def _env_values() -> list[str]:
+    return [(os.environ.get(name) or "").strip().lower() for name in TELEMETRY_ENVS]
+
+
 def _env_disabled() -> bool:
-    return any((os.environ.get(name) or "").lower() in {"0", "false", "no", "off"} for name in DISABLE_ENVS)
+    return any(value in _FALSY for value in _env_values())
+
+
+def _env_enabled() -> bool:
+    return not _env_disabled() and any(value in _TRUTHY for value in _env_values())
+
+
+def _config_enabled(config: dict) -> bool:
+    # Opt-in: only an explicit `enabled: true` (written by `telemetry enable`)
+    # turns it on. Configs from the upstream opt-out era carry only `disabled`.
+    return config.get("enabled") is True and not config.get("disabled")
 
 
 def _valid_install_id(raw) -> bool:
@@ -102,17 +125,22 @@ def _install_id(config: dict | None = None, *, create: bool = True) -> str | Non
 def is_enabled() -> bool:
     if _env_disabled():
         return False
-    return not bool(_load_config().get("disabled"))
+    return _env_enabled() or _config_enabled(_load_config())
 
 
 def status() -> dict:
     config = _load_config()
     env_disabled = _env_disabled()
-    enabled = not env_disabled and not bool(config.get("disabled"))
+    env_enabled = _env_enabled()
+    config_enabled = _config_enabled(config)
+    enabled = not env_disabled and (env_enabled or config_enabled)
     return {
         "enabled": enabled,
+        "opt_in": True,
+        "enabled_by_env": env_enabled,
+        "enabled_by_config": config_enabled,
         "disabled_by_env": env_disabled,
-        "disabled_by_config": bool(config.get("disabled")),
+        "disabled_by_config": not config_enabled,
         "install_id": _install_id(config, create=enabled),
         "config_path": str(_config_path()),
     }
@@ -120,6 +148,7 @@ def status() -> dict:
 
 def set_enabled(enabled: bool) -> dict:
     config = _load_config()
+    config["enabled"] = enabled
     config["disabled"] = not enabled
     _save_config(config)
     return status()

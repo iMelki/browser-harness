@@ -93,7 +93,9 @@ Useful:
 
 ```bash
 browser-harness --update -y
-browser-harness telemetry disable
+browser-harness telemetry status   # off unless you opt in
 ```
+
+Telemetry is off by default in this fork. `browser-harness telemetry enable` (or `BH_TELEMETRY=1`) opts in; `telemetry disable` or any of `BH_TELEMETRY`, `BROWSER_HARNESS_TELEMETRY`, `ANONYMIZED_TELEMETRY` set to `0`/`false`/`off` turns it off again and wins over everything else.
 
 State lives under `${XDG_CONFIG_HOME:-~/.config}/browser-harness` by default: auth, telemetry id, agent workspace, runtime sockets, logs, screenshots, and temp files. Override with `BH_HOME` or `BROWSER_HARNESS_HOME`.
