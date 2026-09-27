@@ -68,6 +68,17 @@ PY
 
 Normal agent-facing docs should keep using `browser-harness`; the `./browser-harness` launcher is only for local repo testing.
 
+## Telemetry (off by default)
+
+This fork sends no usage telemetry unless you opt in. Upstream browser-harness
+sends anonymous PostHog events by default, including the task text and output
+of `browser-harness` runs; here nothing is sent and no install id is created
+until you run `browser-harness telemetry enable` or set `BH_TELEMETRY=1`.
+`browser-harness telemetry status` shows the current state. Setting any of
+`BH_TELEMETRY`, `BROWSER_HARNESS_TELEMETRY` or `ANONYMIZED_TELEMETRY` to
+`0`/`false`/`off` always wins, and `browser-harness telemetry disable` opts out
+again.
+
 ## Contributing
 
 PRs and improvements welcome. The best way to help: **contribute a new domain skill** under [agent-workspace/domain-skills/](agent-workspace/domain-skills/) for a site or task you use often (LinkedIn outreach, ordering on Amazon, filing expenses, etc.). Each skill teaches the agent the selectors, flows, and edge cases it would otherwise have to rediscover.
