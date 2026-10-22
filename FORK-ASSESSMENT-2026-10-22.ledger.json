@@ -188,8 +188,8 @@
             "hasNextPage": false,
             "totalCount": 3,
             "artifact": {
-              "reference": "FORK-ASSESSMENT-2026-10-22.sources.json",
-              "sha256": "46bc947c62d5c4cda269f0b106742e9f0e75b84173c9c2330dbbb3a0faea865a"
+              "reference": "FORK-ASSESSMENT-2026-10-22.md",
+              "sha256": "2d7dc12f6bc5839eecc5e5aa810f456fecd0ed6cea5743f68e1dc54286b46dc6"
             },
             "items": [
               {
@@ -222,6 +222,8 @@
                   "Reconcile the three external ingestion/interval/health intents through the existing owner.",
                   "Preserve all existing helper/data files; metadata-only snapshot is not payload backup.",
                   "Test desired Chrome versus default Comet identity, wrong-endpoint refusal, finite capture/cleanup and telemetry opt-in.",
+                  "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+                  "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
                   "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
                 ],
                 "reentryTrigger": "Existing owner accepts scope and execution route."
@@ -253,6 +255,8 @@
                 "acceptanceCriteria": [
                   "Do not contact trading sites, schedule intervals or ingest historical data; choose one retained helper only after its canonical owner decides scope.",
                   "Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+                  "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+                  "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
                   "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
                 ],
                 "reentryTrigger": "Prior milestone is accepted and operator selects this added scope."
@@ -284,6 +288,8 @@
                 "acceptanceCriteria": [
                   "Depends on first qualified Printing Press generator; sanitized specification only, no raw HAR/cookies/tokens.",
                   "Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+                  "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+                  "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
                   "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
                 ],
                 "reentryTrigger": "Prior milestone is accepted and operator selects this added scope."
@@ -318,11 +324,13 @@
             "workInProgress": [
               "Existing source/publisher custody remains; no competing writer."
             ],
-            "expectedEvidence": "Reconcile the three external ingestion/interval/health intents through the existing owner. Preserve all existing helper/data files; metadata-only snapshot is not payload backup. Test desired Chrome versus default Comet identity, wrong-endpoint refusal, finite capture/cleanup and telemetry opt-in.",
+            "expectedEvidence": "Reconcile the three external ingestion/interval/health intents through the existing owner. Preserve all existing helper/data files; metadata-only snapshot is not payload backup. Test desired Chrome versus default Comet identity, wrong-endpoint refusal, finite capture/cleanup and telemetry opt-in. Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance. Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
             "acceptanceCriteria": [
               "Reconcile the three external ingestion/interval/health intents through the existing owner.",
               "Preserve all existing helper/data files; metadata-only snapshot is not payload backup.",
               "Test desired Chrome versus default Comet identity, wrong-endpoint refusal, finite capture/cleanup and telemetry opt-in.",
+              "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+              "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
               "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
             ],
             "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
@@ -345,10 +353,12 @@
             "workInProgress": [
               "Existing source/publisher custody remains; no competing writer."
             ],
-            "expectedEvidence": "Do not contact trading sites, schedule intervals or ingest historical data; choose one retained helper only after its canonical owner decides scope. Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+            "expectedEvidence": "Do not contact trading sites, schedule intervals or ingest historical data; choose one retained helper only after its canonical owner decides scope. Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback. Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance. Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
             "acceptanceCriteria": [
               "Do not contact trading sites, schedule intervals or ingest historical data; choose one retained helper only after its canonical owner decides scope.",
               "Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+              "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+              "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
               "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
             ],
             "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
@@ -371,10 +381,12 @@
             "workInProgress": [
               "Existing source/publisher custody remains; no competing writer."
             ],
-            "expectedEvidence": "Depends on first qualified Printing Press generator; sanitized specification only, no raw HAR/cookies/tokens. Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+            "expectedEvidence": "Depends on first qualified Printing Press generator; sanitized specification only, no raw HAR/cookies/tokens. Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release. Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance. Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
             "acceptanceCriteria": [
               "Depends on first qualified Printing Press generator; sanitized specification only, no raw HAR/cookies/tokens.",
               "Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+              "Bind the exact source/build artifact and checksum. Before any installation, identify the existing selected runtime and approved finite execution route. Source tests alone do not establish installed acceptance.",
+              "Verify a meaningful positive case, failure/refusal case and regression of the previous milestone. Record actual outcome and unexecuted checks honestly.",
               "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
             ],
             "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
