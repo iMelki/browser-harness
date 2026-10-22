@@ -1,0 +1,16 @@
+{
+  "repository": "iMelki/browser-harness",
+  "generatedAt": "2026-10-22T22:00:42.619Z",
+  "kind": "Historical assessment provenance and explicit source gaps; derived read-only documentation",
+  "sourceRevision": "3f6192bfa7da9e2c57c54de7bfb1a5bc6703adee",
+  "historicalRecordInventory": 1,
+  "historicalCoverage": "MergedPR1 assessed historically; three OPEN_TASKS external intents are ingestion/interval/health, not three new issue records. AS74/75/77/123 prior11 comments reused; four author bodies now fully read. Historical July13 shim0.1.5 repair supersedes July1 readiness failure.",
+  "scopeLimit": "This is not a fresh whole-repository census. Missing original records are not reconstructed as assessed.",
+  "knownSources": [],
+  "gaps": [
+    "Canonical external tracker dispositions for three scratch intents remain unconfirmed.",
+    "Full source customization and upstream-fit comparison manifest incomplete; current runtime identity not measured and not required to finish assessment plan."
+  ],
+  "retainedAssessmentReceiptSha256": "556b82641b591eab4a333f2911d5e900ce6b0b190f683b2a8ed9e385ecf6827b",
+  "publicationLimit": "Raw conversations, machine paths and private source bundles are excluded. This manifest supplies hashes and bounded claims only."
+}

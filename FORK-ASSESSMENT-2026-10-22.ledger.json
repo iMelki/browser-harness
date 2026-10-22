@@ -1,0 +1,451 @@
+{
+  "schemaVersion": "fleet-release-coverage.v1",
+  "runId": "fleet-plan-ledger-20261023-browser-harness",
+  "generatedAt": "2026-10-22T22:00:42.619Z",
+  "mode": "read-only-assessment",
+  "sources": [
+    {
+      "kind": "documentary-deliverable",
+      "planAndLedgerSpecified": true,
+      "firstUsableAndNextReleases": 3,
+      "sourceManifest": "FORK-ASSESSMENT-2026-10-22.sources.json",
+      "sourceManifestSha256": "46bc947c62d5c4cda269f0b106742e9f0e75b84173c9c2330dbbb3a0faea865a"
+    },
+    {
+      "kind": "canonical-schema",
+      "reference": "fleet-release-coverage.v1"
+    },
+    {
+      "kind": "repository-metadata",
+      "repo": "iMelki/browser-harness",
+      "archived": false,
+      "visibility": "public",
+      "defaultBranch": "main",
+      "fork": true,
+      "observedAt": "2026-10-22T22:02:57.492Z"
+    }
+  ],
+  "summary": {
+    "connectedOwnedRemoteCount": 1,
+    "metadataInventoried": 1,
+    "detailedAssessmentsComplete": 0,
+    "localCurrentStateVerified": 0
+  },
+  "repos": [
+    {
+      "repo": "iMelki/browser-harness",
+      "url": "https://github.com/iMelki/browser-harness",
+      "ownership": "owned-verified",
+      "ownershipEvidence": "Existing local origin identity matches the exact owned repository; no upstream mutation.",
+      "inventoryStatus": "partially-assessed",
+      "archived": false,
+      "visibility": "public",
+      "defaultBranch": "main",
+      "forkStatus": "owned fork; existing upstream preserved",
+      "activityStatus": "historical assessment; current broad activity unmeasured",
+      "sourceScope": "Complete actionable documentary plan/ledger for recovered evidence, selected known item references and three ordered release milestones; comprehensive historical audit remains partial.",
+      "historicalCheckoutAliases": [],
+      "owner": null,
+      "ownerFreshness": "Current acceptance unresolved; existing roles do not imply accepted custody.",
+      "remote": {
+        "status": "partial",
+        "branches": null,
+        "pullRequests": null,
+        "exactHeads": {
+          "historicalSource": "3f6192bfa7da9e2c57c54de7bfb1a5bc6703adee"
+        },
+        "observedAt": "2026-10-22T22:00:42.619Z",
+        "limitations": [
+          "Historical source plus selected publication readbacks only; no fresh census."
+        ]
+      },
+      "local": {
+        "status": "unknown",
+        "reason": "Original source/worktree owner release and complete current dirty/stash inventory not established.",
+        "worktrees": null,
+        "dirty": null,
+        "unpublished": null,
+        "stashes": null
+      },
+      "baseline": {
+        "status": "historical",
+        "source": "3f6192bfa7da9e2c57c54de7bfb1a5bc6703adee",
+        "runtime": null,
+        "useProof": "July13 shim0.1.5 repair is historical. Current selected executable/profile/CDP are unverified. Fork and scraper artifacts already exist.",
+        "limitations": [
+          "Historical useful evidence does not establish current selected installation."
+        ]
+      },
+      "assessment": {
+        "status": "partial",
+        "tracker": "https://github.com/iMelki/browser-harness/pull/1",
+        "nextStep": "Publish this completed planning/ledger deliverable through the existing owner, then recover only explicit missing audit evidence.",
+        "priority": "Now: plan/ledger publication; then qualified baseline before later releases.",
+        "releaseSlice": "Qualify the existing harness to attach to one explicitly named browser/profile and read one owned local fixture, with telemetry disabled by default.",
+        "checks": [
+          "Reconcile the three external ingestion/interval/health intents through the existing owner.",
+          "Preserve all existing helper/data files; metadata-only snapshot is not payload backup.",
+          "Test desired Chrome versus default Comet identity, wrong-endpoint refusal, finite capture/cleanup and telemetry opt-in."
+        ],
+        "rollback": "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment.",
+        "owner": null,
+        "consumer": "An agent using an explicitly selected browser/profile to inspect an owned local fixture.",
+        "limitations": [
+          "Canonical external tracker dispositions for three scratch intents remain unconfirmed.",
+          "Full source customization and upstream-fit comparison manifest incomplete; current runtime identity not measured and not required to finish assessment plan."
+        ],
+        "receipt": "FORK-ASSESSMENT-2026-10-22.sources.json"
+      },
+      "evidence": [
+        "FORK-ASSESSMENT-2026-10-22.sources.json",
+        "FORK-ASSESSMENT-2026-10-22.md"
+      ],
+      "review": {
+        "profile": "integration-fork",
+        "sourceRevision": "3f6192bfa7da9e2c57c54de7bfb1a5bc6703adee",
+        "declaredScope": "Complete actionable documentary plan/ledger for recovered evidence, selected known item references and three ordered release milestones; comprehensive historical audit remains partial.",
+        "exclusions": [
+          "No runtime execution, installs, process/service changes or provider calls.",
+          "No fabricated missing item assessments or new census."
+        ],
+        "report": {
+          "status": "draft",
+          "artifact": {
+            "reference": "FORK-ASSESSMENT-2026-10-22.md",
+            "sha256": "2d7dc12f6bc5839eecc5e5aa810f456fecd0ed6cea5743f68e1dc54286b46dc6"
+          },
+          "reviewEvidence": "Private preparation; independent source acceptance and actual repository deposit remain separate."
+        },
+        "backlog": {
+          "issues": {
+            "status": "partial",
+            "requestedScope": "Selected historical issue/PR references with recovered semantic dispositions; mixed resource kinds are explicit in their URLs.",
+            "startedAt": "2026-10-22T22:00:42.619Z",
+            "completedAt": "2026-10-22T22:00:42.619Z",
+            "pages": 0,
+            "hasNextPage": null,
+            "totalCount": 1,
+            "artifact": {
+              "reference": "FORK-ASSESSMENT-2026-10-22.sources.json",
+              "sha256": "46bc947c62d5c4cda269f0b106742e9f0e75b84173c9c2330dbbb3a0faea865a"
+            },
+            "items": [
+              {
+                "id": "iMelki/browser-harness#1",
+                "url": "https://github.com/iMelki/browser-harness/pull/1",
+                "observedState": "historical reference; current state/head unverified",
+                "observedHead": null,
+                "observedBase": null,
+                "sourceBranch": null,
+                "targetBranch": null,
+                "disposition": "reuse-existing-lane",
+                "reason": "Historical merged fork change; external scratch intents and current consumer acceptance remain separate.",
+                "evidence": [
+                  "FORK-ASSESSMENT-2026-10-22.sources.json#historicalCoverage"
+                ],
+                "canonicalLane": "https://github.com/iMelki/browser-harness/pull/1",
+                "dependencies": [],
+                "owner": {
+                  "status": "unresolved",
+                  "identity": null,
+                  "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+                  "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+                },
+                "nextAction": "Recover current exact state and original detailed receipt through this existing lane before any source or release action.",
+                "acceptanceCriteria": [
+                  "Exact resource identity and preserved original decision, with current acceptance or explicit unresolved gap."
+                ],
+                "reentryTrigger": "Original evidence is recovered or existing source owner returns a corrected exact candidate."
+              }
+            ],
+            "limitations": [
+              "Derived selected-scope ledger; no new issue/PR census. Missing original rows and current states remain unknown."
+            ]
+          },
+          "openPullRequests": {
+            "status": "partial",
+            "requestedScope": "Only independently refreshed selected open PRs; not whole repository.",
+            "startedAt": "2026-10-22T22:00:42.619Z",
+            "completedAt": "2026-10-22T22:00:42.619Z",
+            "pages": 0,
+            "hasNextPage": null,
+            "totalCount": 0,
+            "artifact": {
+              "reference": "FORK-ASSESSMENT-2026-10-22.sources.json",
+              "sha256": "46bc947c62d5c4cda269f0b106742e9f0e75b84173c9c2330dbbb3a0faea865a"
+            },
+            "items": [],
+            "limitations": [
+              "Derived selected-scope ledger; no new issue/PR census. Missing original rows and current states remain unknown."
+            ]
+          },
+          "releasePlanItems": {
+            "status": "complete",
+            "requestedScope": "Exactly the three proposed ordered milestone groups specified in this plan; not upstream release inventory.",
+            "startedAt": "2026-10-22T22:00:42.619Z",
+            "completedAt": "2026-10-22T22:00:42.619Z",
+            "pages": 1,
+            "hasNextPage": false,
+            "totalCount": 3,
+            "artifact": {
+              "reference": "FORK-ASSESSMENT-2026-10-22.sources.json",
+              "sha256": "46bc947c62d5c4cda269f0b106742e9f0e75b84173c9c2330dbbb3a0faea865a"
+            },
+            "items": [
+              {
+                "id": "qualified-baseline",
+                "url": "FORK-ASSESSMENT-2026-10-22.md",
+                "observedState": "proposed ordered release milestone; not executed",
+                "observedHead": null,
+                "observedBase": null,
+                "sourceBranch": null,
+                "targetBranch": null,
+                "disposition": "deferred",
+                "reason": "Qualify the existing harness to attach to one explicitly named browser/profile and read one owned local fixture, with telemetry disabled by default.",
+                "evidence": [
+                  "FORK-ASSESSMENT-2026-10-22.md"
+                ],
+                "canonicalLane": "https://github.com/iMelki/browser-harness/pull/1",
+                "dependencies": [
+                  "Existing source owner and reviewed candidate",
+                  "Explicit current baseline/scope decision",
+                  "Qualified finite checks and preserved rollback"
+                ],
+                "owner": {
+                  "status": "unresolved",
+                  "identity": null,
+                  "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+                  "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+                },
+                "nextAction": "Reconcile the three external ingestion/interval/health intents through the existing owner.",
+                "acceptanceCriteria": [
+                  "Reconcile the three external ingestion/interval/health intents through the existing owner.",
+                  "Preserve all existing helper/data files; metadata-only snapshot is not payload backup.",
+                  "Test desired Chrome versus default Comet identity, wrong-endpoint refusal, finite capture/cleanup and telemetry opt-in.",
+                  "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
+                ],
+                "reentryTrigger": "Existing owner accepts scope and execution route."
+              },
+              {
+                "id": "next-release-1",
+                "url": "FORK-ASSESSMENT-2026-10-22.md",
+                "observedState": "proposed ordered release milestone; not executed",
+                "observedHead": null,
+                "observedBase": null,
+                "sourceBranch": null,
+                "targetBranch": null,
+                "disposition": "deferred",
+                "reason": "Classify and qualify one preserved scraper against a local deterministic fixture.",
+                "evidence": [
+                  "FORK-ASSESSMENT-2026-10-22.md"
+                ],
+                "canonicalLane": "https://github.com/iMelki/browser-harness/pull/1",
+                "dependencies": [
+                  "qualified-baseline"
+                ],
+                "owner": {
+                  "status": "unresolved",
+                  "identity": null,
+                  "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+                  "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+                },
+                "nextAction": "Do not contact trading sites, schedule intervals or ingest historical data; choose one retained helper only after its canonical owner decides scope.",
+                "acceptanceCriteria": [
+                  "Do not contact trading sites, schedule intervals or ingest historical data; choose one retained helper only after its canonical owner decides scope.",
+                  "Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+                  "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
+                ],
+                "reentryTrigger": "Prior milestone is accepted and operator selects this added scope."
+              },
+              {
+                "id": "next-release-2",
+                "url": "FORK-ASSESSMENT-2026-10-22.md",
+                "observedState": "proposed ordered release milestone; not executed",
+                "observedHead": null,
+                "observedBase": null,
+                "sourceBranch": null,
+                "targetBranch": null,
+                "disposition": "deferred",
+                "reason": "Optionally complete a local Browser Harness to Printing Press fixture handoff.",
+                "evidence": [
+                  "FORK-ASSESSMENT-2026-10-22.md"
+                ],
+                "canonicalLane": "https://github.com/iMelki/browser-harness/pull/1",
+                "dependencies": [
+                  "next-release-1"
+                ],
+                "owner": {
+                  "status": "unresolved",
+                  "identity": null,
+                  "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+                  "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+                },
+                "nextAction": "Depends on first qualified Printing Press generator; sanitized specification only, no raw HAR/cookies/tokens.",
+                "acceptanceCriteria": [
+                  "Depends on first qualified Printing Press generator; sanitized specification only, no raw HAR/cookies/tokens.",
+                  "Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+                  "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
+                ],
+                "reentryTrigger": "Prior milestone is accepted and operator selects this added scope."
+              }
+            ],
+            "limitations": []
+          }
+        },
+        "censusReconciliationEvidence": "FORK-ASSESSMENT-2026-10-22.sources.json preserves historical inventory 1 and explicit unrecovered source/row gaps; selected rows are not represented as that full census.",
+        "findings": [
+          "Canonical external tracker dispositions for three scratch intents remain unconfirmed.",
+          "Full source customization and upstream-fit comparison manifest incomplete; current runtime identity not measured and not required to finish assessment plan."
+        ],
+        "nextActions": [
+          {
+            "rank": 1,
+            "lane": "now",
+            "tracker": "https://github.com/iMelki/browser-harness/pull/1",
+            "action": "Qualify the existing harness to attach to one explicitly named browser/profile and read one owned local fixture, with telemetry disabled by default.",
+            "rankingRationale": "Establish the smallest useful qualified baseline before adding consumers.",
+            "owner": {
+              "status": "unresolved",
+              "identity": null,
+              "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+              "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+            },
+            "dependencies": [
+              "Existing source owner and reviewed candidate",
+              "Explicit current baseline/scope decision",
+              "Qualified finite checks and preserved rollback"
+            ],
+            "workInProgress": [
+              "Existing source/publisher custody remains; no competing writer."
+            ],
+            "expectedEvidence": "Reconcile the three external ingestion/interval/health intents through the existing owner. Preserve all existing helper/data files; metadata-only snapshot is not payload backup. Test desired Chrome versus default Comet identity, wrong-endpoint refusal, finite capture/cleanup and telemetry opt-in.",
+            "acceptanceCriteria": [
+              "Reconcile the three external ingestion/interval/health intents through the existing owner.",
+              "Preserve all existing helper/data files; metadata-only snapshot is not payload backup.",
+              "Test desired Chrome versus default Comet identity, wrong-endpoint refusal, finite capture/cleanup and telemetry opt-in.",
+              "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
+            ],
+            "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
+          },
+          {
+            "rank": 2,
+            "lane": "next",
+            "tracker": "https://github.com/iMelki/browser-harness/pull/1",
+            "action": "Classify and qualify one preserved scraper against a local deterministic fixture.",
+            "rankingRationale": "Build on the accepted prior scope and its dependencies.",
+            "owner": {
+              "status": "unresolved",
+              "identity": null,
+              "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+              "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+            },
+            "dependencies": [
+              "qualified-baseline"
+            ],
+            "workInProgress": [
+              "Existing source/publisher custody remains; no competing writer."
+            ],
+            "expectedEvidence": "Do not contact trading sites, schedule intervals or ingest historical data; choose one retained helper only after its canonical owner decides scope. Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+            "acceptanceCriteria": [
+              "Do not contact trading sites, schedule intervals or ingest historical data; choose one retained helper only after its canonical owner decides scope.",
+              "Use the same accepted artifact/owner, declare positive/failure/regression checks for this added scope, and preserve rollback.",
+              "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
+            ],
+            "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
+          },
+          {
+            "rank": 3,
+            "lane": "later",
+            "tracker": "https://github.com/iMelki/browser-harness/pull/1",
+            "action": "Optionally complete a local Browser Harness to Printing Press fixture handoff.",
+            "rankingRationale": "Build on the accepted prior scope and its dependencies.",
+            "owner": {
+              "status": "unresolved",
+              "identity": null,
+              "evidenceOrGap": "Existing repository/source/release owner retains custody; current explicit acceptance has not been recovered.",
+              "nextAction": "Existing owner acknowledges the exact selected source, scope and next milestone or records deliberate deferral."
+            },
+            "dependencies": [
+              "next-release-1"
+            ],
+            "workInProgress": [
+              "Existing source/publisher custody remains; no competing writer."
+            ],
+            "expectedEvidence": "Depends on first qualified Printing Press generator; sanitized specification only, no raw HAR/cookies/tokens. Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+            "acceptanceCriteria": [
+              "Depends on first qualified Printing Press generator; sanitized specification only, no raw HAR/cookies/tokens.",
+              "Require a named accepted consumer and meaningful useful-outcome evidence before extending the prior release.",
+              "Retain the previous shim/package and browser profile unchanged; undo only owned fixture/helper changes and close only the exact owned temporary attachment."
+            ],
+            "gate": "Plan only; existing owner, current exact candidate, normal checks/reviews and separate runtime authority precede execution."
+          }
+        ],
+        "discovery": {
+          "status": "draft",
+          "pointerPath": "FORK-REVIEW-HANDOFF.md",
+          "inspectedRevision": "7fb9f84b11e7123f6dd0052b8a5526d09ee77977",
+          "reportReference": "FORK-ASSESSMENT-2026-10-22.md",
+          "resolutionEvidence": "Private patch links the existing handoff to this plan, ledger and source manifest; actual application not yet performed."
+        },
+        "centralEvidence": {
+          "status": "pending",
+          "existingLedgerReference": "FORK-ASSESSMENT-2026-10-22.ledger.json",
+          "existingDashboardReference": "No public dashboard claimed; restricted coordination evidence remains with the existing custodian.",
+          "producer": "codex-chief",
+          "runId": "fleet-plan-ledger-20261023-lane-b",
+          "sourceRevision": "3f6192bfa7da9e2c57c54de7bfb1a5bc6703adee",
+          "report": {
+            "reference": "FORK-ASSESSMENT-2026-10-22.md",
+            "sha256": "2d7dc12f6bc5839eecc5e5aa810f456fecd0ed6cea5743f68e1dc54286b46dc6"
+          },
+          "observedFrom": "2026-10-22T22:00:42.619Z",
+          "observedTo": "2026-10-22T22:00:42.619Z",
+          "generatedAt": "2026-10-22T22:00:42.619Z",
+          "readbackEvidence": "Private prepared bytes validated; actual repository/branch deposit remains pending publisher.",
+          "consumerPickupEvidence": "Unverified; retain existing owner and publisher."
+        },
+        "freshness": {
+          "status": "unknown",
+          "validUntil": "2026-10-22T22:00:42.619Z",
+          "invalidateOn": [
+            "Source head, destination bytes, tracker state, owner acceptance or relevant dependency changes."
+          ],
+          "lastReconciledAt": "2026-10-22T22:00:42.619Z",
+          "nonAtomicLimitations": [
+            "Historical assessment scope and source pins; this pass did not refresh the full repository census or selected runtime."
+          ]
+        },
+        "completion": {
+          "assessment": "partial",
+          "remediation": "unknown",
+          "release": "unknown",
+          "installedRuntime": "unknown"
+        }
+      }
+    }
+  ],
+  "exceptions": [
+    {
+      "identity": "iMelki/browser-harness:evidence-gap-1",
+      "status": "unresolved-evidence",
+      "reason": "Canonical external tracker dispositions for three scratch intents remain unconfirmed.",
+      "nextStep": "Existing assessment custodian recovers exact original evidence; preserve unknown and do not repeat completed work."
+    },
+    {
+      "identity": "iMelki/browser-harness:evidence-gap-2",
+      "status": "unresolved-evidence",
+      "reason": "Full source customization and upstream-fit comparison manifest incomplete; current runtime identity not measured and not required to finish assessment plan.",
+      "nextStep": "Existing assessment custodian recovers exact original evidence; preserve unknown and do not repeat completed work."
+    }
+  ],
+  "localOnly": {
+    "status": "prepared-not-applied",
+    "count": 3,
+    "identities": [
+      "FORK-ASSESSMENT-2026-10-22.md",
+      "FORK-ASSESSMENT-2026-10-22.ledger.json",
+      "FORK-ASSESSMENT-2026-10-22.sources.json"
+    ],
+    "nextStep": "Existing publisher applies after exact source/destination custody and branch mapping; no new writer."
+  }
+}
